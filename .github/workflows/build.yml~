@@ -8,7 +8,7 @@ jobs:
       fail-fast: false
       matrix:
         file:
-          - gmmk-pro.json
+          - username.json
     steps:
       - name: Disable git safe directory checks
         run: git config --global --add safe.directory '*'
